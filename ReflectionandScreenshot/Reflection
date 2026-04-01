@@ -1,0 +1,5 @@
+Today, I learned the importance and use of JWT (JSON Web Token) authentication in securing REST APIs. JWT tokens are generated after a successful login and are used to verify and authorize users when accessing protected endpoints. These tokens contain encoded information and are essential for maintaining secure communication between the client and the server.
+
+I also learned that JWT tokens are not exclusive to superusers, but can be used by any authenticated user depending on the system’s design. They should always be handled carefully and kept secure because they grant access to protected resources. Without proper authorization, users cannot access sensitive API data.
+
+Overall, implementing JWT authentication improves the security of the system by preventing unauthorized access and ensuring that only verified users can interact with the API.
